@@ -23,8 +23,21 @@ Il sito è stato fatto dall'agenzia **JDYP** (Jaspreet, Daniel, Yaroslav Protoco
    git clone https://github.com/glinieckidaniel/PROGETTO-KAIVO.git
    cd PROGETTO-KAIVO
    ```
-2. Apri la cartella in **VS Code**, fai clic destro su `index.html` e scegli **Open with Live Server** (estensione Live Server).
+2. Apri la cartella in **VS Code**, fai clic destro su `html/index.html` e scegli **Open with Live Server** (estensione Live Server).
    Il sito si apre nel browser.
+
+## Struttura del progetto
+
+```
+PROGETTO-KAIVO/
+├── html/           pagine del sito (index, catalogo, carrello, checkout, chi-siamo, contatti)
+├── css/            fogli di stile
+├── js/             script JavaScript
+├── data/           catalogo prodotti (prodotti.json)
+├── img/            immagini
+├── docs/verbali/   verbali dei briefing
+└── README.md
+```
 
 ## Autori
 
